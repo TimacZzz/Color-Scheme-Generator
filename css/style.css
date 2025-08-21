@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    min-width: 400px;
+    font-family: "Delius", cursive;
+    height: 100vh;
+}
+
+#color-scheme-form{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.6em;
+    border: 1px solid black;
+    margin-bottom: 0;
+}
+
+#submit-btn, #mode-selector, #color-picker{
+    font-family: inherit;
+    border: 1px solid gainsboro;
+}
+
+#color-schemes-container{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+main{
+    margin: 0;
+}
+
+.color-scheme{
+    border: 1px solid black;
+}
+
+.color-scheme-container{
+    height: 200px;
+    margin: 0;
+}
+
+p{
+    font-size: 0.9rem;
+    margin: 0.5em auto;
+    text-align: center;
+}

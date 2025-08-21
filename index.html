@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <!-- Use Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <form id="color-scheme-form">
+                <input id="color-picker" type="color" aria-label="An input element to select seed color">
+                <select id="mode-selector" aria-label="">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light </option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="submit-btn" type="submit">Get Color Scheme</button>
+            </form>
+        </header>
+        <main>
+            <div id="color-schemes-container">
+            </div>
+        </main>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
